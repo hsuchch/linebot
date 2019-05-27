@@ -17,7 +17,7 @@
       "action": {
         "type": "postback",
         "text": "想知道AI的戰略價值",
-        "data": "folder=天地靈石&tag=ai"
+        "data": "folder=天地靈石"
       }
     },
     {
@@ -30,7 +30,7 @@
       "action": {
         "type": "postback",
         "text": "想知道區塊鏈的戰略價值",
-        "data": "folder=因果交織&tag=blockchain"
+        "data": "folder=因果交織"
       }
     },
     {
@@ -43,7 +43,7 @@
       "action": {
         "type": "postback",
         "text": "想知道雲服務的戰略價值",
-        "data": "folder=雲中幻境&tag=cloud"
+        "data": "folder=雲中幻境"
       }
     },
     {
@@ -56,7 +56,7 @@
       "action": {
         "type": "postback",
         "text": "產品快速導入的訣竅",
-        "data": "folder=匆忙幾度&tag=devops"
+        "data": "folder=匆忙幾度"
       }
     },
     {
@@ -69,7 +69,7 @@
       "action": {
         "type": "postback",
         "text": "點擊旁邊連結 line://ti/p/@gby2522m 進行聯絡",
-        "data": "folder=金陵四家&tag=contact"
+        "data": "folder=金陵四家"
       }
     },
     {

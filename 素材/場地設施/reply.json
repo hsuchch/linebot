@@ -1,0 +1,58 @@
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1556890291-1576037123_n.jpg",
+        "title": "所本部",
+        "text": "所本部訓練設施、場地及建築之配置與介紹",
+        "actions": [
+          {
+            "type": "message",
+            "label": "無",
+            "text": "無"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1558062674-3248461870_l.jpg",
+        "title": "林口訓練中心",
+        "text": "林訓中心訓練設施、場地及建築之配置與介紹",
+        "actions": [
+          {
+            "type": "message",
+            "label": "無",
+            "text": "無"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1556889528-134786496_n.jpg",
+        "title": "谷關訓練中心",
+        "text": "谷訓中心訓練設施、場地及建築之配置與介紹",
+        "actions": [
+          {
+            "type": "uri",
+            "label": "建築及場地設施介紹",
+            "uri": "https://drive.google.com/open?id=1huXY9W_5eV8ivzMD2oIBxM0oRDEUTd9v"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1558062694-3443845514_l.jpg",
+        "title": "高雄訓練中心",
+        "text": "高訓中心訓練設施、場地及建築之配置與介紹",
+        "actions": [
+          {
+            "type": "uri",
+            "label": "建築及場地設施介紹",
+            "uri": "https://drive.google.com/open?id=1y9yiDjMOHn_--Jk_c8KkVVcr5BnQ4Wkc"
+          }
+        ]
+      }
+    ]
+  }
+}

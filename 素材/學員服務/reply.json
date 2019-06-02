@@ -1,0 +1,78 @@
+{
+  "type": "template",
+  "altText": "this is a carousel template",
+  "template": {
+    "type": "carousel",
+    "actions": [],
+    "columns": [
+      {
+        "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1556890291-1576037123_n.jpg",
+        "title": "所本部",
+        "text": "所本部交通、學員輔導服務相關資訊",
+        "actions": [
+          {
+            "type": "message",
+            "label": "無",
+            "text": "無"
+          },
+          {
+            "type": "uri",
+            "label": "學員輔導服務資訊",
+            "uri": "https://drive.google.com/open?id=1pT9H1CTjTveJUGNl7kYjXKHYlJRYxXXH"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1558062674-3248461870_l.jpg",
+        "title": "林口訓練中心",
+        "text": "林訓中心交通、學員輔導服務相關資訊",
+        "actions": [
+          {
+            "type": "message",
+            "label": "無",
+            "text": "無"
+          },
+          {
+            "type": "message",
+            "label": "無",
+            "text": "無"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1556889528-134786496_n.jpg",
+        "title": "谷關訓練中心",
+        "text": "谷訓中心交通、學員輔導服務相關資訊",
+        "actions": [
+          {
+            "type": "message",
+            "label": "無",
+            "text": "無"
+          },
+          {
+            "type": "uri",
+            "label": "學員輔導服務資訊",
+            "uri": "https://drive.google.com/open?id=1L8vQ3jmkdatrtTkSA8nflZDaq5Ld2wLk"
+          }
+        ]
+      },
+      {
+        "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1558062694-3443845514_l.jpg",
+        "title": "高雄訓練中心",
+        "text": "高訓中心交通、學員輔導服務相關資訊",
+        "actions": [
+          {
+            "type": "uri",
+            "label": "交通資訊",
+            "uri": "https://drive.google.com/open?id=1l2HM3MuneuGF4bq80lsg350xw_hGO29j"
+          },
+          {
+            "type": "uri",
+            "label": "學員輔導服務資訊",
+            "uri": "https://drive.google.com/open?id=1dl1BJKl38sDoZKvM36_aalv_dTyXqCxm"
+          }
+        ]
+      }
+    ]
+  }
+}

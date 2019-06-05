@@ -1,3 +1,4 @@
+[
 {
   "type": "template",
   "altText": "this is a carousel template",
@@ -7,68 +8,68 @@
     "columns": [
       {
         "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1556890291-1576037123_n.jpg",
-        "title": "©Ò¥»³¡",
-        "text": "©Ò¥»³¡¥æ³q¡B¾Ç­û»²¾ÉªA°È¬ÛÃö¸ê°T",
+        "title": "æ‰€æœ¬éƒ¨",
+        "text": "äº¤é€šã€å­¸å“¡è¼”å°æœå‹™ç›¸é—œè³‡è¨Š",
         "actions": [
           {
             "type": "message",
-            "label": "µL",
-            "text": "µL"
+            "label": "æ²’æä¾›",
+            "text": "æ²’æä¾›"
           },
           {
             "type": "uri",
-            "label": "¾Ç­û»²¾ÉªA°È¸ê°T",
+            "label": "å­¸å“¡è¼”å°æœå‹™è³‡è¨Š",
             "uri": "https://drive.google.com/open?id=1pT9H1CTjTveJUGNl7kYjXKHYlJRYxXXH"
           }
         ]
       },
       {
         "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1558062674-3248461870_l.jpg",
-        "title": "ªL¤f°V½m¤¤¤ß",
-        "text": "ªL°V¤¤¤ß¥æ³q¡B¾Ç­û»²¾ÉªA°È¬ÛÃö¸ê°T",
+        "title": "æ—å£è¨“ç·´ä¸­å¿ƒ",
+        "text": "äº¤é€šã€å­¸å“¡è¼”å°æœå‹™ç›¸é—œè³‡è¨Š",
         "actions": [
           {
             "type": "message",
-            "label": "µL",
-            "text": "µL"
+            "label": "æ²’æä¾›",
+            "text": "æ²’æä¾›"
           },
           {
             "type": "message",
-            "label": "µL",
-            "text": "µL"
+            "label": "æ²’æä¾›",
+            "text": "æ²’æä¾›"
           }
         ]
       },
       {
         "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1556889528-134786496_n.jpg",
-        "title": "¨¦Ãö°V½m¤¤¤ß",
-        "text": "¨¦°V¤¤¤ß¥æ³q¡B¾Ç­û»²¾ÉªA°È¬ÛÃö¸ê°T",
+        "title": "è°·é—œè¨“ç·´ä¸­å¿ƒ",
+        "text": "äº¤é€šã€å­¸å“¡è¼”å°æœå‹™ç›¸é—œè³‡è¨Š",
         "actions": [
           {
             "type": "message",
-            "label": "µL",
-            "text": "µL"
+            "label": "æ²’æä¾›",
+            "text": "æ²’æä¾›"
           },
           {
             "type": "uri",
-            "label": "¾Ç­û»²¾ÉªA°È¸ê°T",
+            "label": "å­¸å“¡è¼”å°æœå‹™è³‡è¨Š",
             "uri": "https://drive.google.com/open?id=1L8vQ3jmkdatrtTkSA8nflZDaq5Ld2wLk"
           }
         ]
       },
       {
         "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1558062694-3443845514_l.jpg",
-        "title": "°ª¶¯°V½m¤¤¤ß",
-        "text": "°ª°V¤¤¤ß¥æ³q¡B¾Ç­û»²¾ÉªA°È¬ÛÃö¸ê°T",
+        "title": "é«˜é›„è¨“ç·´ä¸­å¿ƒ",
+        "text": "äº¤é€šã€å­¸å“¡è¼”å°æœå‹™ç›¸é—œè³‡è¨Š",
         "actions": [
           {
             "type": "uri",
-            "label": "¥æ³q¸ê°T",
+            "label": "äº¤é€šè³‡è¨Š",
             "uri": "https://drive.google.com/open?id=1l2HM3MuneuGF4bq80lsg350xw_hGO29j"
           },
           {
             "type": "uri",
-            "label": "¾Ç­û»²¾ÉªA°È¸ê°T",
+            "label": "å­¸å“¡è¼”å°æœå‹™è³‡è¨Š",
             "uri": "https://drive.google.com/open?id=1dl1BJKl38sDoZKvM36_aalv_dTyXqCxm"
           }
         ]
@@ -76,3 +77,4 @@
     ]
   }
 }
+]

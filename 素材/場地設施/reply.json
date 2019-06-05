@@ -1,3 +1,4 @@
+[
 {
   "type": "template",
   "altText": "this is a carousel template",
@@ -7,48 +8,48 @@
     "columns": [
       {
         "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1556890291-1576037123_n.jpg",
-        "title": "©Ò¥»³¡",
-        "text": "©Ò¥»³¡°V½m³]¬I¡B³õ¦a¤Î«Ø¿v¤§°t¸m»P¤¶²Ğ",
+        "title": "æ‰€æœ¬éƒ¨",
+        "text": "è¨“ç·´è¨­æ–½ã€å ´åœ°å»ºç¯‰é…ç½®èˆ‡ä»‹ç´¹",
         "actions": [
           {
             "type": "message",
-            "label": "µL",
-            "text": "µL"
+            "label": "ç„¡",
+            "text": "ç„¡"
           }
         ]
       },
       {
         "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1558062674-3248461870_l.jpg",
-        "title": "ªL¤f°V½m¤¤¤ß",
-        "text": "ªL°V¤¤¤ß°V½m³]¬I¡B³õ¦a¤Î«Ø¿v¤§°t¸m»P¤¶²Ğ",
+        "title": "æ—å£è¨“ç·´ä¸­å¿ƒ",
+        "text": "è¨“ç·´è¨­æ–½ã€å ´åœ°å»ºç¯‰é…ç½®èˆ‡ä»‹ç´¹",
         "actions": [
           {
             "type": "message",
-            "label": "µL",
-            "text": "µL"
+            "label": "æ²’æä¾›",
+            "text": "æ²’æä¾›"
           }
         ]
       },
       {
         "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1556889528-134786496_n.jpg",
-        "title": "¨¦Ãö°V½m¤¤¤ß",
-        "text": "¨¦°V¤¤¤ß°V½m³]¬I¡B³õ¦a¤Î«Ø¿v¤§°t¸m»P¤¶²Ğ",
+        "title": "è°·é—œè¨“ç·´ä¸­å¿ƒ",
+        "text": "è¨“ç·´è¨­æ–½ã€å ´åœ°å»ºç¯‰é…ç½®èˆ‡ä»‹ç´¹",
         "actions": [
           {
             "type": "uri",
-            "label": "«Ø¿v¤Î³õ¦a³]¬I¤¶²Ğ",
+            "label": "å»ºç¯‰åŠå ´åœ°è¨­æ–½ä»‹ç´¹",
             "uri": "https://drive.google.com/open?id=1huXY9W_5eV8ivzMD2oIBxM0oRDEUTd9v"
           }
         ]
       },
       {
         "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1558062694-3443845514_l.jpg",
-        "title": "°ª¶¯°V½m¤¤¤ß",
-        "text": "°ª°V¤¤¤ß°V½m³]¬I¡B³õ¦a¤Î«Ø¿v¤§°t¸m»P¤¶²Ğ",
+        "title": "é«˜é›„è¨“ç·´ä¸­å¿ƒ",
+        "text": "è¨“ç·´è¨­æ–½ã€å ´åœ°å»ºç¯‰é…ç½®èˆ‡ä»‹ç´¹",
         "actions": [
           {
             "type": "uri",
-            "label": "«Ø¿v¤Î³õ¦a³]¬I¤¶²Ğ",
+            "label": "å»ºç¯‰åŠå ´åœ°è¨­æ–½ä»‹ç´¹",
             "uri": "https://drive.google.com/open?id=1y9yiDjMOHn_--Jk_c8KkVVcr5BnQ4Wkc"
           }
         ]
@@ -56,3 +57,4 @@
     ]
   }
 }
+]

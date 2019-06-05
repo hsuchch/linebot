@@ -15,9 +15,8 @@
         "height": 862
       },
       "action": {
-        "type": "postback",
-        "text": "動作 1",
-        "data": "folder=學員服務"
+        "type": "message",
+        "text": "學員服務"
       }
     },
     {
@@ -28,9 +27,8 @@
         "height": 854
       },
       "action": {
-        "type": "postback",
-        "text": "動作 2",
-        "data": "folder=場地設施"
+        "type": "message",
+        "text": "場地設施"
       }
     },
     {
@@ -41,9 +39,8 @@
         "height": 850
       },
       "action": {
-        "type": "postback",
-        "text": "動作 3",
-        "data": "folder=訓練資源"
+        "type": "message",
+        "text": "訓練資訊"
       }
     },
     {

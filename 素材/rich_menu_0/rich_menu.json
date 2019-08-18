@@ -17,7 +17,7 @@
       "action": {
         "type": "postback",
         "text": "學員服務",
-        "data": "tag=service"
+        "data": "tag=ai"
       }
     },
     {
@@ -30,7 +30,7 @@
       "action": {
         "type": "postback",
         "text": "場地設施",
-        "data": "tag=build"
+        "data": "tag=blockchain"
       }
     },
     {
@@ -43,7 +43,7 @@
       "action": {
         "type": "postback",
         "text": "訓練資訊",
-        "data": "tag=class"
+        "data": "tag=cloud"
       }
     }
   ]

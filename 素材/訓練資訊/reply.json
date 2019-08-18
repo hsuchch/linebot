@@ -1,7 +1,7 @@
 [
     {
   "type": "template",
-  "altText": "this is a carousel template",
+  "altText": "訓練資訊",
   "template": {
     "type": "carousel",
     "actions": [],
@@ -9,68 +9,48 @@
       {
         "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1556890291-1576037123_n.jpg",
         "title": "所本部",
-        "text": "所本部近期開班資訊及相關宣傳",
+        "text": "近期開班資訊(每月更新)",
         "actions": [
           {
-            "type": "message",
-            "label": "沒提供",
-            "text": "沒提供"
-          },
-          {
-            "type": "message",
-            "label": "沒提供",
-            "text": "沒提供"
+            "type": "uri",
+            "label": "我想了解所本部近期開班資訊",
+            "uri": "https://drive.google.com/open?id=1ew7wF0e_GGH0Hzhnuj8hL_pPW3aoz7uA"
           }
         ]
       },
       {
         "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1558062674-3248461870_l.jpg",
-        "title": "林口訓練中心",
-        "text": "林訓中心近期開班資訊及相關宣傳",
+        "title": "林口核能訓練中心",
+        "text": "近期開班資訊(每月更新)",
         "actions": [
           {
-            "type": "message",
-            "label": "沒提供",
-            "text": "沒提供"
-          },
-          {
-            "type": "message",
-            "label": "沒提供",
-            "text": "沒提供"
+            "type": "uri",
+            "label": "我想了解林訓近期開班資訊",
+            "uri": "https://drive.google.com/open?id=1GU2RcRsFGxQTwBucY0p58Y9an7QNpOkb"
           }
         ]
       },
       {
         "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1556889528-134786496_n.jpg",
         "title": "谷關訓練中心",
-        "text": "林訓中心近期開班資訊及相關宣傳",
+        "text": "近期開班資訊(每月更新)",
         "actions": [
           {
             "type": "uri",
-            "label": "近期開班資訊",
-            "uri": "https://drive.google.com/open?id=1alyE0SVQxNAbnA8ZrVBJ4dkO1s1T5aO8"
-          },
-          {
-            "type": "message",
-            "label": "沒提供",
-            "text": "沒提供"
+            "label": "我想了解谷訓近期開班資訊",
+            "uri": "https://drive.google.com/open?id=1RDhY0S3gK54bJYjaHjJMHpd-Uwuw8STy"
           }
         ]
       },
       {
         "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1558062694-3443845514_l.jpg",
         "title": "高雄訓練中心",
-        "text": "高訓中心近期開班資訊及相關宣傳",
+        "text": "近期開班資訊(每月更新)",
         "actions": [
           {
             "type": "uri",
-            "label": "近期開班資訊",
-            "uri": "https://drive.google.com/open?id=1p_X_LXYuPHpQ8Mgspp3t4qoZaVvTPYZy"
-          },
-          {
-            "type": "uri",
-            "label": "全國技術士技能檢定",
-            "uri": "https://drive.google.com/open?id=1IeLylVdJxHnSYSHD_wrh57Qsvk1FcwcL"
+            "label": "我想了解高訓近期開班資訊",
+            "uri": "https://drive.google.com/open?id=1yvxeY3gNlZu8rktkZEnQYkgGlCBuR-tm"
           }
         ]
       }

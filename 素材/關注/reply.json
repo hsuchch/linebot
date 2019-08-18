@@ -1,14 +1,8 @@
 [
 {
-  "type": "text",
-  "text": "您好!歡迎加入台電訓練所好友！\n點擊視窗下方功能選單即可獲得更多資訊喔!\n"
-},{
   "type": "image",
   "originalContentUrl": "https://imageproxy.pimg.tw/resize?width=409&height=409&url=https://curator-production.s3.ap-northeast-1.amazonaws.com/500985ccc3ef611eb2/a2de56d0-8439-11e9-81e5-0f1f0a4bea90/1559371927601/OF26ZL80i1.jpeg",
   "previewImageUrl": "https://imageproxy.pimg.tw/resize?width=409&height=409&url=https://curator-production.s3.ap-northeast-1.amazonaws.com/500985ccc3ef611eb2/a2de56d0-8439-11e9-81e5-0f1f0a4bea90/1559371927601/OF26ZL80i1.jpeg",
   "animated": true
-},{
-  "type": "text",
-  "text": "您好!目前不開放一對一對話功能！\n"
 }
 ]

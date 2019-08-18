@@ -1,7 +1,7 @@
 [
 {
   "type": "template",
-  "altText": "this is a carousel template",
+  "altText": "學員服務",
   "template": {
     "type": "carousel",
     "actions": [],
@@ -12,31 +12,21 @@
         "text": "交通、學員輔導服務相關資訊",
         "actions": [
           {
-            "type": "message",
-            "label": "沒提供",
-            "text": "沒提供"
-          },
-          {
             "type": "uri",
-            "label": "學員輔導服務資訊",
-            "uri": "https://drive.google.com/open?id=1pT9H1CTjTveJUGNl7kYjXKHYlJRYxXXH"
+            "label": "我想了解所本部學員服務資訊",
+            "uri": "https://drive.google.com/open?id=1M9toQG0Vka66qcjXpZGwsN0fXHy-OieJ"
           }
         ]
       },
       {
         "thumbnailImageUrl": "https://pic.pimg.tw/youtingme123/1558062674-3248461870_l.jpg",
-        "title": "林口訓練中心",
+        "title": "林口核能訓練中心",
         "text": "交通、學員輔導服務相關資訊",
         "actions": [
           {
-            "type": "message",
-            "label": "沒提供",
-            "text": "沒提供"
-          },
-          {
-            "type": "message",
-            "label": "沒提供",
-            "text": "沒提供"
+            "type": "uri",
+            "label": "我想了解林訓學員服務資訊",
+            "uri": "https://drive.google.com/open?id=1s5Hw-_rRIVC56XfqOZHJMcPBAu3fvzLe"
           }
         ]
       },
@@ -46,14 +36,9 @@
         "text": "交通、學員輔導服務相關資訊",
         "actions": [
           {
-            "type": "message",
-            "label": "沒提供",
-            "text": "沒提供"
-          },
-          {
             "type": "uri",
-            "label": "學員輔導服務資訊",
-            "uri": "https://drive.google.com/open?id=1L8vQ3jmkdatrtTkSA8nflZDaq5Ld2wLk"
+            "label": "我想了解谷訓學員服務資訊",
+            "uri": "https://drive.google.com/open?id=16TpXG4L_uXIqu5q744oSsNpyTOncWl0d"
           }
         ]
       },
@@ -64,13 +49,8 @@
         "actions": [
           {
             "type": "uri",
-            "label": "交通資訊",
-            "uri": "https://drive.google.com/open?id=1l2HM3MuneuGF4bq80lsg350xw_hGO29j"
-          },
-          {
-            "type": "uri",
-            "label": "學員輔導服務資訊",
-            "uri": "https://drive.google.com/open?id=1dl1BJKl38sDoZKvM36_aalv_dTyXqCxm"
+            "label": "我想了解高訓學員服務資訊",
+            "uri": "https://drive.google.com/open?id=19cQ-Lyu5-QVP00sXtbLk8azmOuebFRRk"
           }
         ]
       }

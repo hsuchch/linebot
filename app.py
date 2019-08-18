@@ -1,7 +1,7 @@
-
+#!/usr/bin/env python
 # coding: utf-8
 
-# In[9]:
+# In[1]:
 
 
 '''
@@ -11,7 +11,7 @@
 '''
 
 
-# In[10]:
+# In[2]:
 
 
 '''
@@ -66,7 +66,7 @@ def callback():
     return 'OK'
 
 
-# In[11]:
+# In[3]:
 
 
 '''
@@ -96,38 +96,41 @@ from linebot.models.template import *
 
 def detect_json_array_to_new_message_array(fileName):
     
-    #開啟檔案，轉成json
-    with open(fileName) as f:
-        jsonArray = json.load(f)
-    
     # 解析json
     returnArray = []
-    for jsonObject in jsonArray:
-
-        # 讀取其用來判斷的元件
-        message_type = jsonObject.get('type')
-        
-        # 轉換
-        if message_type == 'text':
-            returnArray.append(TextSendMessage.new_from_json_dict(jsonObject))
-        elif message_type == 'imagemap':
-            returnArray.append(ImagemapSendMessage.new_from_json_dict(jsonObject))
-        elif message_type == 'template':
-            returnArray.append(TemplateSendMessage.new_from_json_dict(jsonObject))
-        elif message_type == 'image':
-            returnArray.append(ImageSendMessage.new_from_json_dict(jsonObject))
-        elif message_type == 'sticker':
-            returnArray.append(StickerSendMessage.new_from_json_dict(jsonObject))  
-        elif message_type == 'audio':
-            returnArray.append(AudioSendMessage.new_from_json_dict(jsonObject))  
-        elif message_type == 'location':
-            returnArray.append(LocationSendMessage.new_from_json_dict(jsonObject))
+    try:
+       #開啟檔案，轉成json
+       with open(fileName) as f:
+        jsonArray = json.load(f)
+       
+       for jsonObject in jsonArray:
+   
+            # 讀取其用來判斷的元件
+            message_type = jsonObject.get('type')
+            
+            # 轉換
+            if message_type == 'text':
+                returnArray.append(TextSendMessage.new_from_json_dict(jsonObject))
+            elif message_type == 'imagemap':
+                returnArray.append(ImagemapSendMessage.new_from_json_dict(jsonObject))
+            elif message_type == 'template':
+                returnArray.append(TemplateSendMessage.new_from_json_dict(jsonObject))
+            elif message_type == 'image':
+                returnArray.append(ImageSendMessage.new_from_json_dict(jsonObject))
+            elif message_type == 'sticker':
+                returnArray.append(StickerSendMessage.new_from_json_dict(jsonObject))  
+            elif message_type == 'audio':
+                returnArray.append(AudioSendMessage.new_from_json_dict(jsonObject))  
+            elif message_type == 'location':
+                returnArray.append(LocationSendMessage.new_from_json_dict(jsonObject))
+    except:
+        returnArray.append(TextSendMessage(text='目前尚未開放一對一對話功能\n如有詢問請洽\n所本部:(02)2666-7216\n林訓:(03)328-6045\n谷訓:(04)2595-1940\n高訓:(07)787-2201\n\n若有建議請至下方網站填寫\nhttps://forms.gle/yk7r3poN6ojcE3hd6'))
 
     # 回傳
     return returnArray
 
 
-# In[12]:
+# In[ ]:
 
 
 '''
@@ -159,9 +162,12 @@ def process_follow_event(event):
         event.reply_token,
         result_message_array
     )
+    user_id=event.source.user_id
+    rich_menu_id="richmenu-b6246d767789e2260858187f8488542b"
+    line_bot_api.link_rich_menu_to_user(user_id,rich_menu_id)
 
 
-# In[13]:
+# In[ ]:
 
 
 '''
@@ -184,7 +190,9 @@ from linebot.models import (
 @handler.add(MessageEvent,message=TextMessage)
 def process_text_message(event):
 
-    # 讀取本地檔案，並轉譯成消息
+   # 讀取本地檔案，並轉譯成消息
+
+
     result_message_array =[]
     replyJsonPath = "素材/"+event.message.text+"/reply.json"
     result_message_array = detect_json_array_to_new_message_array(replyJsonPath)
@@ -192,11 +200,12 @@ def process_text_message(event):
     # 發送
     line_bot_api.reply_message(
         event.reply_token,
-        result_message_array
+       result_message_array
     )
+    
 
 
-# In[14]:
+# In[ ]:
 
 
 '''
@@ -257,7 +266,7 @@ def process_postback_event(event):
         )
 
 
-# In[15]:
+# In[ ]:
 
 
 '''
@@ -269,7 +278,7 @@ Application 運行（開發版）
 #     app.run(host='0.0.0.0')
 
 
-# In[16]:
+# In[ ]:
 
 
 '''
@@ -281,4 +290,10 @@ Application 運行（heroku版）
 import os
 if __name__ == "__main__":
     app.run(host='0.0.0.0',port=os.environ['PORT'])
+
+
+# In[ ]:
+
+
+
 
